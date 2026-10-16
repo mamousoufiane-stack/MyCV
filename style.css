@@ -23,3 +23,6 @@
 
 /* Compact email line within the sidebar, retaining other contact sizes. */
 .resume.bandeau .band-contact-email{font-size:10px;white-space:nowrap;overflow-wrap:normal;word-break:normal}.resume.bandeau-beta .band-contact-email{gap:7px}.resume.bandeau-beta .band-contact-email .band-contact-value{font-size:10px;letter-spacing:-.15px;white-space:nowrap;overflow-wrap:normal;word-break:normal}
+
+/* Consistent left alignment of personal information, including wrapped lines. */
+.resume.bandeau .band-contact{text-align:left;text-indent:0}.resume.bandeau-beta .band-contact-icon{justify-content:flex-start;gap:12px;text-align:left}.resume.bandeau-beta .band-contact-icon svg{flex:0 0 16px}.resume.bandeau-beta .band-contact-icon .band-contact-value{flex:1;min-width:0;text-align:left;text-indent:0}
